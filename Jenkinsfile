@@ -16,7 +16,7 @@ pipeline {
       }
     }
 
-    stage('deploy job') //validate compile, test and then package
+    stage('deploy job') 
     {
       steps {
       sshagent(['DEV-CICD']) {
